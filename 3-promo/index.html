@@ -27,10 +27,11 @@
     <style type="text/css">
       @media only screen and (max-width:600px) {
 
-        p,
+        /* p, */
         ul li,
-        ol li,
-        a {
+        /* a,  */
+        ol li
+        {
           font-size: 16px !important;
           line-height: 150% !important
         }
@@ -40,8 +41,32 @@
           line-height: 120% !important;
         }
 
+        .header {
+          padding-top:24px !important;
+          padding-bottom:24px !important;
+        }
+
+        .header-social {
+          padding-bottom:24px;
+        }
+
+        .header-social p {
+          font-size: 11px !important;
+          line-height: 13px !important;
+        }
+
+        .header-logo {
+          text-align: center !important;
+        }
+
         *[class="gmail-fix"] {
           display: none !important;
+        }
+
+        .content table,
+        .content {
+          width: 100% !important;
+          max-width: 600px !important;
         }
       }
 
@@ -71,10 +96,10 @@
             <table
               width="600px"
               align="center"
+              class="content"
               cellpadding="0"
               cellspacing="0"
               border="0"
-              class="content-body"
               bgcolor="#F6F6F6"
               style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#F6F6F6;width:600px"
             >
@@ -96,126 +121,128 @@
                           style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;width:600px;"
                         >
                           <tr>
-                            <td align="center" style="Margin:0;padding-top:52px;padding-bottom:36px;padding-left:32px;padding-right:32px;">
+                            <td class="header" align="center" style="font-size:0;Margin:0;padding-top:52px;padding-bottom:36px;padding-left:32px;padding-right:32px;direction: rtl;">
 
-                              <!--[if mso]><table style="width:536px" cellpadding="0"cellspacing="0"><tr><td style="width:178px" valign="top"><![endif]-->
+                              <!--[if mso]><table style="width:100%" cellpadding="0"cellspacing="0" dir="rtl"><tr><td style="width:396px" valign="top" dir="ltr"><![endif]-->
 
-                              <table width="178px" align="left" cellpadding="0" cellspacing="0" border="0" class="content-left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;">
-                                <tr>
-                                  <td>
-                                    <table width="100%" align="left" cellspacing="0" cellpadding="0" border="0">
-                                      <tr>
-                                        <td>
-                                          <a href="https://htmlacademy.ru/" target="_blank">
-                                            <img
-                                              src="https://raw.githubusercontent.com/katanaevav/428115-play-html-1/module2-task2/3-promo/img/logo.png"
-                                              alt="PlayHTML"
-                                              width="140"
-                                              height="24"
-                                              border="0"
-                                              style="display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
-                                            />
-                                          </a>
-                                        </td>
-                                      </tr>
-                                    </table>
-                                  </td>
-                                </tr>
-                              </table>
+                              <div align="center" style="display:inline-block; max-width:396px; vertical-align:top;width:100%;direction: ltr;">
+                                <table width="396px" align="right" cellpadding="0" cellspacing="0" border="0" class="content-right" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:right;">
+                                  <tr>
+                                    <td class="header-social">
+                                      <table align="right" cellspacing="0" cellpadding="0" border="0">
+                                        <tr>
+                                          <td align="right" style="padding-top:0;padding-bottom:0;padding-left:0;padding-right:10px;Margin:0;white-space:nowrap;">
+                                            <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:11px;font-family:'Trebuchet MS', tahoma, sans-serif;line-height:13px;color:#000000;">
+                                              Мы в соцсетях:
+                                            </p>
+                                          </td>
+                                          <td align="left">
 
-                              <!--[if mso]></td><td style="width:0px"></td><td style="width:358px" valign="top"><![endif]-->
+                                            <table align="right" cellspacing="0" cellpadding="0" border="0">
+                                              <tr>
+                                                <td style="padding-right: 8px;">
+                                                  <a
+                                                    href="https://www.facebook.com/"
+                                                    target="_blank"
+                                                  >
+                                                    <img
+                                                      src="https://raw.githubusercontent.com/katanaevav/428115-play-html-1/module2-task2/3-promo/img/facebook.png"
+                                                      alt="Facebook"
+                                                      width="24"
+                                                      height="24"
+                                                      border="0"
+                                                    /></a>
+                                                </td>
+                                                <td style="padding-right: 8px;">
+                                                  <a
+                                                    href="https://www.instagram.com/"
+                                                    target="_blank"
+                                                  >
+                                                    <img
+                                                      src="https://raw.githubusercontent.com/katanaevav/428115-play-html-1/module2-task2/3-promo/img/inst.png"
+                                                      alt="Instagram"
+                                                      width="24"
+                                                      height="24"
+                                                      border="0"
+                                                    /></a>
+                                                </td>
+                                                <td style="padding-right: 8px;">
+                                                  <a
+                                                    href="https://www.youtube.com/"
+                                                    target="_blank"
+                                                  >
+                                                    <img
+                                                      src="https://raw.githubusercontent.com/katanaevav/428115-play-html-1/module2-task2/3-promo/img/youtube.png"
+                                                      alt="Youtube"
+                                                      width="24"
+                                                      height="24"
+                                                      border="0"
+                                                    /></a>
+                                                </td>
+                                                <td style="padding-right: 8px;">
+                                                  <a
+                                                    href="https://telegram.org/"
+                                                    target="_blank"
+                                                  >
+                                                    <img
+                                                      src="https://raw.githubusercontent.com/katanaevav/428115-play-html-1/module2-task2/3-promo/img/telegram.png"
+                                                      alt="Telegram"
+                                                      width="24"
+                                                      height="24"
+                                                      border="0"
+                                                    /></a>
+                                                </td>
+                                                <td>
+                                                  <a
+                                                    href="https://vk.com/"
+                                                    target="_blank"
+                                                  >
+                                                    <img
+                                                      src="https://raw.githubusercontent.com/katanaevav/428115-play-html-1/module2-task2/3-promo/img/vk.png"
+                                                      alt="VK"
+                                                      width="24"
+                                                      height="24"
+                                                      border="0"
+                                                    /></a>
+                                                </td>
+                                              </tr>
+                                            </table>
 
-                              <table width="358px" align="right" cellpadding="0" cellspacing="0" border="0" class="content-right" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:right;">
-                                <tr>
-                                  <td>
-                                    <table align="right" cellspacing="0" cellpadding="0" border="0">
-                                      <tr>
-                                        <td align="right" style="padding-top:0;padding-bottom:0;padding-left:0;padding-right:10px;Margin:0;">
-                                          <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:11px;font-family:'Trebuchet MS', tahoma, sans-serif;line-height:13px;color:#000000;">
-                                            Мы в соцсетях:
-                                          </p>
-                                        </td>
-                                        <td style="padding-top:0;padding-bottom:0;padding-left:0;padding-right:8px;Margin:0;">
-                                          <a
-                                            href="https://www.facebook.com/"
-                                            target="_blank"
-                                            style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'Trebuchet MS', tahoma, sans-serif;font-size:14px;text-decoration:underline;color:#000000;"
-                                          >
-                                            <img
-                                              src="https://raw.githubusercontent.com/katanaevav/428115-play-html-1/module2-task2/3-promo/img/facebook.png"
-                                              alt="Facebook"
-                                              width="24"
-                                              height="24"
-                                              border="0"
-                                              style="display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
-                                            />
-                                          </a>
-                                        </td>
-                                        <td style="padding-top:0;padding-bottom:0;padding-left:0;padding-right:8px;Margin:0;">
-                                          <a
-                                            href="https://www.instagram.com/"
-                                            target="_blank"
-                                            style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'Trebuchet MS', tahoma, sans-serif;font-size:14px;text-decoration:underline;color:#000000;"
-                                          >
-                                            <img
-                                              src="https://raw.githubusercontent.com/katanaevav/428115-play-html-1/module2-task2/3-promo/img/inst.png"
-                                              alt="Instagram"
-                                              width="24"
-                                              height="24"
-                                              border="0"
-                                              style="display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
-                                            />
-                                          </a>
-                                        </td>
-                                        <td style="padding-top:0;padding-bottom:0;padding-left:0;padding-right:8px;Margin:0;">
-                                          <a
-                                            href="https://www.youtube.com/"
-                                            target="_blank"
-                                            style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'Trebuchet MS', tahoma, sans-serif;font-size:14px;text-decoration:underline;color:#000000;"
-                                          >
-                                            <img
-                                              src="https://raw.githubusercontent.com/katanaevav/428115-play-html-1/module2-task2/3-promo/img/youtube.png"
-                                              alt="Youtube"
-                                              width="24"
-                                              height="24"
-                                              border="0"
-                                              style="display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
-                                            />
-                                          </a>
-                                        </td>
-                                        <td style="padding-top:0;padding-bottom:0;padding-left:0;padding-right:8px;Margin:0;">
-                                          <a
-                                            href="https://telegram.org/"
-                                            target="_blank"
-                                            style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'Trebuchet MS', tahoma, sans-serif;font-size:14px;text-decoration:underline;color:#000000;"
-                                          >
-                                            <img
-                                              src="https://raw.githubusercontent.com/katanaevav/428115-play-html-1/module2-task2/3-promo/img/telegram.png"
-                                              alt="Telegram"
-                                              width="24"
-                                              height="24"
-                                              border="0"
-                                              style="display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
-                                            />
-                                          </a>
-                                        </td>
-                                        <td>
-                                          <a href="https://vk.com/" target="_blank">
-                                            <img
-                                              src="https://raw.githubusercontent.com/katanaevav/428115-play-html-1/module2-task2/3-promo/img/vk.png"
-                                              alt="VK"
-                                              width="24"
-                                              height="24"
-                                              border="0"
-                                              style="display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
-                                            />
-                                          </a>
-                                        </td>
-                                      </tr>
-                                    </table>
-                                  </td>
-                                </tr>
-                              </table>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </div>
+
+                              <!--[if mso]></td><td style="width:140px" valign="top" dir="rtl"><![endif]-->
+
+
+                              <div align="center" style="display:inline-block; max-width:140px; vertical-align:top;width:100%;direction: rtl;">
+                                <table width="140px" align="left" cellpadding="0" cellspacing="0" border="0" class="content-left" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;float:left;">
+                                  <tr>
+                                    <td>
+                                      <table width="100%" align="left" cellspacing="0" cellpadding="0" border="0">
+                                        <tr>
+                                          <td class="header-logo" align="left">
+                                            <a href="https://htmlacademy.ru/" target="_blank">
+                                              <img
+                                                src="https://raw.githubusercontent.com/katanaevav/428115-play-html-1/module2-task2/3-promo/img/logo.png"
+                                                alt="PlayHTML"
+                                                width="140"
+                                                height="24"
+                                                border="0"
+                                                style="display:block;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                              />
+                                            </a>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </div>
 
                               <!--[if mso]></td></tr></table><![endif]-->
 
@@ -228,22 +255,22 @@
                   </table>
 
                   <!--Блок Акция-->
-                  <table width="568px" align="center" cellspacing="0" cellpadding="0" border="0">
+                  <table width="100%" align="center" cellspacing="0" cellpadding="0" border="0">
                     <tr>
-                      <td>
+                      <td style="padding-left: 16px; padding-right: 16px;">
                         <table
-                          width="568px"
+                          width="100%"
                           align="center"
                           cellpadding="0"
                           cellspacing="0"
                           border="0"
                           class="content-body"
                           bgcolor="#FFFFFF"
-                          style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;border-radius:15px 15px 0 0;background-color:#FFFFFF;width:568px;"
+                          style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;border-radius:15px 15px 0 0;background-color:#FFFFFF;width:100%;"
                         >
                           <tr>
                             <td style="padding:0;Margin:0;">
-                              <!--[if mso]><table style="width:568px" cellpadding="0"
+                              <!--[if mso]><table style="width:100%" cellpadding="0"
                               cellspacing="0"><tr><td style="width:284px" valign="top"><![endif]-->
 
                               <table width="284px" align="left" cellpadding="0" cellspacing="0" border="0">
@@ -362,17 +389,17 @@
                   </table>
 
                   <!--Блок списка курсов, учавствующих в акции-->
-                  <table width="568px" align="center" cellspacing="0" cellpadding="0" border="0">
+                  <table width="100%" align="center" cellspacing="0" cellpadding="0" border="0">
                     <tr>
-                      <td>
+                      <td style="padding-left: 16px; padding-right: 16px;">
                         <table
-                          width="568px"
+                          width="100%"
                           align="center"
                           cellpadding="0"
                           cellspacing="0"
                           border="0"
                           class="content-body"
-                          style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;width:568px;"
+                          style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;width:100%;"
                         >
                           <tr>
                             <td style="padding:0;Margin:0;">
@@ -400,10 +427,10 @@
                                       <tr>
                                         <td>
 
-                                          <table width="568px" align="center" cellpadding="0" cellspacing="0" border="0" class="content-body" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;width:568px;">
+                                          <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="content-body" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;width:100%;">
                                             <tr>
                                               <td style="padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;Margin:0;">
-                                                <!--[if mso]><table style="width:568px" cellpadding="0"
+                                                <!--[if mso]><table style="width:100%" cellpadding="0"
                                                   cellspacing="0"><tr><td style="width:284px" valign="top"><![endif]-->
 
                                                 <table width="284px" align="left" cellpadding="0" cellspacing="0" border="0">
@@ -581,10 +608,10 @@
                                       <tr>
                                         <td>
 
-                                          <table width="568px" align="center" cellpadding="0" cellspacing="0" class="content-body" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;width:568px;">
+                                          <table width="100%" align="center" cellpadding="0" cellspacing="0" class="content-body" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;width:100%;">
                                             <tr>
                                               <td style="padding-top:0;padding-bottom:48px;padding-left:0;padding-right:0;Margin:0;">
-                                                <!--[if mso]><table style="width:568px" cellpadding="0"
+                                                <!--[if mso]><table style="width:100%" cellpadding="0"
                                                   cellspacing="0"><tr><td style="width:284px" valign="top"><![endif]-->
 
                                                     <table width="284px" align="left" cellpadding="0" cellspacing="0" border="0">
@@ -763,10 +790,10 @@
                   </table>
 
                   <!--Отзыв о курсе-->
-                  <table width="568px" align="center" cellspacing="0" cellpadding="0" border="0">
+                  <table width="100%" align="center" cellspacing="0" cellpadding="0" border="0">
                     <tr>
-                      <td>
-                        <table width="568px" align="center" cellpadding="0" cellspacing="0" border="0" class="content-body" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;width:568px;">
+                      <td style="padding-left: 16px; padding-right: 16px;">
+                        <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="content-body" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;width:100%;">
                           <tr>
                             <td style="padding-top:24px;padding-bottom:0;padding-left:0;padding-right:0;Margin:0;">
                               <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" class="content-body" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;border-radius: 15px;background-color:#FFFFFF;">
@@ -870,10 +897,10 @@
                   </table>
 
                   <!--Блок Популярные курсы-->
-                  <table width="568px" align="center" cellspacing="0" cellpadding="0" border="0">
+                  <table width="100%" align="center" cellspacing="0" cellpadding="0" border="0">
                     <tr>
-                      <td>
-                        <table width="568px" align="center" cellpadding="0" cellspacing="0" border="0" class="content-body" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;width:568px;">
+                      <td style="padding-left: 16px; padding-right: 16px;">
+                        <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="content-body" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;width:100%;">
                           <tr>
                             <td style="padding-top:24px;padding-bottom:0;padding-left:0;padding-right:0;Margin:0;">
                               <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="content-body" bgcolor="#ffffff" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;border-radius: 15px 15px 0 0;background-color:#FFFFFF;">
@@ -1060,10 +1087,10 @@
                   </table>
 
                   <!--Блок приемуществ-->
-                  <table width="568px" align="center" cellspacing="0" cellpadding="0" border="0">
+                  <table width="100%" align="center" cellspacing="0" cellpadding="0" border="0">
                     <tr>
-                      <td >
-                        <table width="568px" align="center" cellpadding="0" cellspacing="0" border="0" class="content-body" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;width:568px;">
+                      <td style="padding-left: 16px; padding-right: 16px;">
+                        <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" class="content-body" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;width:100%;">
                           <tr>
                             <td style="padding:0;Margin:0;">
                               <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" class="content-body" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;border-radius: 0 0 15px 15px;background-color:#FFFFFF;">
@@ -1200,22 +1227,22 @@
                   </table>
 
                   <!--Блок контакты и ссылки-->
-                  <table width="568px" align="center" cellspacing="0" cellpadding="0" border="0">
+                  <table width="100%" align="center" cellspacing="0" cellpadding="0" border="0">
                     <tr>
-                      <td align="center" style="Margin:0;padding-top:24px;padding-bottom:0;padding-left:0;padding-right:0;">
+                      <td align="center" style="Margin:0;padding-top:24px;padding-bottom:0;padding-left:16px;padding-right:16px;">
                         <table
-                          width="568px"
+                          width="100%"
                           align="center"
                           cellpadding="0"
                           cellspacing="0"
                           border="0"
                           bgcolor="#ffffff"
                           class="content-body"
-                          style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;border-radius:15px 15px 0 0;background-color:#FFFFFF;width:568px;"
+                          style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;border-radius:15px 15px 0 0;background-color:#FFFFFF;width:100%;"
                         >
                           <tr>
                             <td align="center" style="Margin:0;padding-top:8px;padding-bottom:32px;padding-left:0;padding-right:0;">
-                              <!--[if mso]><table style="width:568px" cellpadding="0"
+                              <!--[if mso]><table style="width:100%" cellpadding="0"
                               cellspacing="0"><tr><td style="width:268px" valign="top"><![endif]-->
 
                               <!--Социальные сети-->
@@ -1498,16 +1525,16 @@
                   <!--Подвал с текстом-->
                   <table width="100%" align="center" cellspacing="0" cellpadding="0" border="0">
                     <tr>
-                      <td align="center" style="Margin:0;padding:0;">
+                      <td align="center" style="Margin:0;padding-left: 16px; padding-right: 16px;">
                         <table
-                          width="568px"
+                          width="100%"
                           align="center"
                           cellpadding="0"
                           cellspacing="0"
                           border="0"
                           bgcolor="#ffffff"
                           class="content-body"
-                          style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;width:568px;"
+                          style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;background-color:#FFFFFF;width:100%;"
                         >
                           <tr>
                             <td style="padding-top:32px;padding-bottom:0;padding-left:16px;padding-right:16px;Margin:0;">
